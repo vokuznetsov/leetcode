@@ -1,6 +1,7 @@
 package com.leetcode.tasks.two.sum
 
 /**
+ * 1. Two Sum
  * https://leetcode.com/problems/two-sum/submissions/
  */
 private object Solution {
