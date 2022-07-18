@@ -1,4 +1,4 @@
-package com.leetcode.tasks.two.sum
+package com.leetcode.tasks.`1`.two.sum
 
 /**
  * 1. Two Sum
@@ -39,9 +39,9 @@ private object Solution {
 }
 
 fun main() {
-    val twoSum1 = Solution.twoSumMap(nums = intArrayOf(3, 2, 4), target = 6)
-    val twoSum2 = Solution.twoSumMap(nums = intArrayOf(3, 2, 4), target = 6)
+    val result1 = Solution.twoSumMap(nums = intArrayOf(3, 2, 4), target = 6)
+    val result2 = Solution.twoSumMap(nums = intArrayOf(3, 2, 4), target = 6)
 
-    println(twoSum1.joinToString())
-    println(twoSum2.joinToString())
+    println(result1.joinToString())
+    println(result2.joinToString())
 }
