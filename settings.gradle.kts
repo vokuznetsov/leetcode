@@ -12,6 +12,7 @@ rootProject.buildFileName = "${rootProject.name}.gradle.kts"
 
 include("easy-difficulty")
 include("medium-difficulty")
+include("hard-difficulty")
 
 pluginManagement {
     repositories {
@@ -34,4 +35,3 @@ dependencyResolutionManagement {
 rootProject.children.forEach {
     it.buildFileName = "${it.name}.gradle.kts"
 }
-
