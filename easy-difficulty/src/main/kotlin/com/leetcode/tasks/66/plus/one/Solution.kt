@@ -30,6 +30,6 @@ fun main() {
     println(Solution.plusOne(intArrayOf(1, 2, 3)).contentEquals(intArrayOf(1, 2, 4)))
     println(Solution.plusOne(intArrayOf(4, 3, 2, 1)).contentEquals(intArrayOf(4, 3, 2, 2)))
     println(Solution.plusOne(intArrayOf(9)).contentEquals(intArrayOf(1, 0)))
-    println(Solution.plusOne1(intArrayOf(9, 9)).contentEquals(intArrayOf(1, 0, 0)))
+    println(Solution.plusOne(intArrayOf(9, 9)).contentEquals(intArrayOf(1, 0, 0)))
 
 }
