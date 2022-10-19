@@ -15,10 +15,10 @@ subprojects {
     //apply(plugin = "io.gitlab.arturbosch.detekt")
 
     dependencies {
-        implementation("org.jetbrains.kotlin:kotlin-reflect")
-        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-        implementation("org.jetbrains.kotlin:kotlin-stdlib")
+        //implementation("org.jetbrains.kotlin:kotlin-reflect")
+        //implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+        //implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
+        //implementation("org.jetbrains.kotlin:kotlin-stdlib")
     }
 
     tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
