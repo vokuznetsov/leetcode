@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`766`.toeplitz.matrix
+package com.leetcode.tasks.algorithms.`766`.toeplitz.matrix
 
 /**
  * 766. Toeplitz Matrix

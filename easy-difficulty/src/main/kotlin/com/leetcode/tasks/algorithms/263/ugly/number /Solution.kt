@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`263`.ugly.`number `
+package com.leetcode.tasks.algorithms.`263`.ugly.`number `
 
 /**
  * 263. Ugly Number

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`303`.range.sum.query.immutable
+package com.leetcode.tasks.algorithms.`303`.range.sum.query.immutable
 
 /**
  * 303. Range Sum Query - Immutable

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`234`.palindrome.linked.list
+package com.leetcode.tasks.algorithms.`234`.palindrome.linked.list
 
 /**
  * 234. Palindrome Linked List

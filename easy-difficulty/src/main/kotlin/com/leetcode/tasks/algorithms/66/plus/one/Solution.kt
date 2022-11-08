@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`66`.plus.one
+package com.leetcode.tasks.algorithms.`66`.plus.one
 
 /**
  * 66. Plus One

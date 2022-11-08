@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`9`.palindrome.number
+package com.leetcode.tasks.algorithms.`9`.palindrome.number
 
 import kotlin.math.log10
 import kotlin.math.pow

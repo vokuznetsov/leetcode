@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`230`.power.of.two
+package com.leetcode.tasks.algorithms.`230`.power.of.two
 
 /**
  * 230. Power of Two

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`338`.counting.bits
+package com.leetcode.tasks.algorithms.`338`.counting.bits
 
 /**
  * 338. Counting Bits

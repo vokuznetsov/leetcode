@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`232`.implement.queue.using.stacks
+package com.leetcode.tasks.algorithms.`232`.implement.queue.using.stacks
 
 /**
  * 232. Implement Queue using Stacks

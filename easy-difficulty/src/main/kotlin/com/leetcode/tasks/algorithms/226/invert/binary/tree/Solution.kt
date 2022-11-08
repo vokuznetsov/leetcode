@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`226`.invert.binary.tree
+package com.leetcode.tasks.algorithms.`226`.invert.binary.tree
 
 /**
  * 226. Invert Binary Tree

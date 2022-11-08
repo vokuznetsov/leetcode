@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`145`.binary.tree.postorder.traversal
+package com.leetcode.tasks.algorithms.`145`.binary.tree.postorder.traversal
 
 import java.util.LinkedList
 

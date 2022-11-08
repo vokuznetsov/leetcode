@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`101`.symmetric.tree
+package com.leetcode.tasks.algorithms.`101`.symmetric.tree
 
 /**
  * 101. Symmetric Tree

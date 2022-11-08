@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`136`.single.number
+package com.leetcode.tasks.algorithms.`136`.single.number
 
 /**
  * 136. Single Number

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`645`.set.mismatch
+package com.leetcode.tasks.algorithms.`645`.set.mismatch
 
 /**
  * 645. Set Mismatch

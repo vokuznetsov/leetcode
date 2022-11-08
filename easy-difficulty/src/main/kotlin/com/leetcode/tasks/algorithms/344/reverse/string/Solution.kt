@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`344`.reverse.string
+package com.leetcode.tasks.algorithms.`344`.reverse.string
 
 /**
  * 344. Reverse String

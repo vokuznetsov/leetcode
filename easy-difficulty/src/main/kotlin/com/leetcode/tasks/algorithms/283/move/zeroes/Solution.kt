@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`283`.move.zeroes
+package com.leetcode.tasks.algorithms.`283`.move.zeroes
 
 /**
  * 283. Move Zeroes

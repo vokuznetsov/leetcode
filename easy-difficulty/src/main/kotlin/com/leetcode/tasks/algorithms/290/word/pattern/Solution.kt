@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`290`.word.pattern
+package com.leetcode.tasks.algorithms.`290`.word.pattern
 
 /**
  * 283. Move Zeroes

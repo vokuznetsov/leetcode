@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`108`.maximum.depth.of.binary.tree
+package com.leetcode.tasks.algorithms.`108`.convert.sorted.array.to.binary.search.tree
 
 /**
  * 108. Convert Sorted Array to Binary Search Tree

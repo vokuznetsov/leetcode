@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`1323`.maximum.`69`.number
+package com.leetcode.tasks.algorithms.`1323`.maximum.`69`.number
 
 import kotlin.math.log10
 

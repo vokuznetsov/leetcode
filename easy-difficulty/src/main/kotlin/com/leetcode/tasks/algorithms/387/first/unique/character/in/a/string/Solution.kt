@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`387`.first.unique.character.`in`.a.string
+package com.leetcode.tasks.algorithms.`387`.first.unique.character.`in`.a.string
 
 /**
  * 387. First Unique Character in a String

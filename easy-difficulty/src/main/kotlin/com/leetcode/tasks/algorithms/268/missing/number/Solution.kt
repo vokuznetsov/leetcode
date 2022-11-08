@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`268`.missing.number
+package com.leetcode.tasks.algorithms.`268`.missing.number
 
 /**
  * 268. Missing Number

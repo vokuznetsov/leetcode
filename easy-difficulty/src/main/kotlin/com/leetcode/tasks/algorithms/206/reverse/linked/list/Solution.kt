@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`206`.reverse.linked.list
+package com.leetcode.tasks.algorithms.`206`.reverse.linked.list
 
 /**
  * 206. Reverse Linked List

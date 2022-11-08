@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`169`.majority.element
+package com.leetcode.tasks.algorithms.`169`.majority.element
 
 /**
  * 119. Pascal's Triangle II

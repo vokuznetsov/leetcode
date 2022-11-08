@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`203`.remove.linked.list.elements
+package com.leetcode.tasks.algorithms.`203`.remove.linked.list.elements
 
 /**
  * 203. Remove Linked List Elements

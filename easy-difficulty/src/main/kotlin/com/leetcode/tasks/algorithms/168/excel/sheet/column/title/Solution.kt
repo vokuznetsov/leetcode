@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`168`.excel.sheet.column.title
+package com.leetcode.tasks.algorithms.`168`.excel.sheet.column.title
 
 
 /**

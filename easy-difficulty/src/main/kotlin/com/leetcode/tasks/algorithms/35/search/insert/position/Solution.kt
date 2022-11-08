@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`35`.search.insert.position
+package com.leetcode.tasks.algorithms.`35`.search.insert.position
 
 import kotlin.math.roundToInt
 

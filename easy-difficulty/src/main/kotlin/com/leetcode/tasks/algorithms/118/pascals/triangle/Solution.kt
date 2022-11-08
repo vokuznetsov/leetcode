@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`118`.pascals.triangle
+package com.leetcode.tasks.algorithms.`118`.pascals.triangle
 
 /**
  * 118. Pascal's Triangle

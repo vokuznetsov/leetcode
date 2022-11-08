@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`225`.implement.stack.using.queues
+package com.leetcode.tasks.algorithms.`225`.implement.stack.using.queues
 
 import java.util.LinkedList
 

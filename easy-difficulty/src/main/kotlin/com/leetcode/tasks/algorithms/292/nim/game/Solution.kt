@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`292`.nim.game
+package com.leetcode.tasks.algorithms.`292`.nim.game
 
 /**
  * 292. Nim Game

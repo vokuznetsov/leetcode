@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`110`.balanced.binary.tree
+package com.leetcode.tasks.algorithms.`110`.balanced.binary.tree
 
 import kotlin.math.abs
 

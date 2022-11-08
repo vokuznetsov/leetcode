@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`219`.contains.duplicate.ii
+package com.leetcode.tasks.algorithms.`219`.contains.duplicate.ii
 
 /**
  * 219. Contains Duplicate II

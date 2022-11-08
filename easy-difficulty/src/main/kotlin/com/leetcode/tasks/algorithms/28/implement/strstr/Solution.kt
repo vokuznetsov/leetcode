@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`28`.implement.strstr
+package com.leetcode.tasks.algorithms.`28`.implement.strstr
 
 /**
  * 28. Implement strStr()

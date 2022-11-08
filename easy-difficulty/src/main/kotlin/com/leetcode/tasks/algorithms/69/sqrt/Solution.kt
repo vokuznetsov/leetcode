@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`69`.sqrt
+package com.leetcode.tasks.algorithms.`69`.sqrt
 
 /**
  * 69. Sqrt(x)

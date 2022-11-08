@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`20`.valid.parentheses
+package com.leetcode.tasks.algorithms.`20`.valid.parentheses
 
 /**
  * 20. Valid Parentheses

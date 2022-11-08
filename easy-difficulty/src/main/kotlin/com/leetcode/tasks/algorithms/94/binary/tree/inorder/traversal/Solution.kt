@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`94`.binary.tree.inorder.traversal
+package com.leetcode.tasks.algorithms.`94`.binary.tree.inorder.traversal
 
 import kotlin.random.Random
 

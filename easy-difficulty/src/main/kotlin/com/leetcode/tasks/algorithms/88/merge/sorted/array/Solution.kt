@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`88`.merge.sorted.array
+package com.leetcode.tasks.algorithms.`88`.merge.sorted.array
 
 /**
  * 88. Merge Sorted Array

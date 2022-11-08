@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`21`.merge.two.sorted.lists
+package com.leetcode.tasks.algorithms.`21`.merge.two.sorted.lists
 
 /**
  * 21. Merge Two Sorted Lists

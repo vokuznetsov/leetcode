@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`67`.add.binary
+package com.leetcode.tasks.algorithms.`67`.add.binary
 
 /**
  * 67. Add Binary

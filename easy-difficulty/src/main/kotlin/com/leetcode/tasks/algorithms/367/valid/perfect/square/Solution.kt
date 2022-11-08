@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`367`.valid.perfect.square
+package com.leetcode.tasks.algorithms.`367`.valid.perfect.square
 
 /**
  * 367. Valid Perfect Square

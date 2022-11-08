@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`326`.power.of.three
+package com.leetcode.tasks.algorithms.`326`.power.of.three
 
 import kotlin.math.pow
 

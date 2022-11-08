@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`383`.ransom.note
+package com.leetcode.tasks.algorithms.`383`.ransom.note
 
 /**
  * 383. Ransom Note

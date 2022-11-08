@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`141`.linked.list.cycle
+package com.leetcode.tasks.algorithms.`141`.linked.list.cycle
 
 /**
  * 141. Linked List Cycle

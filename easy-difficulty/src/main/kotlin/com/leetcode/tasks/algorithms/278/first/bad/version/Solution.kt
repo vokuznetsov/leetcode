@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`278`.first.bad.version
+package com.leetcode.tasks.algorithms.`278`.first.bad.version
 
 /**
  * 278. First Bad Version

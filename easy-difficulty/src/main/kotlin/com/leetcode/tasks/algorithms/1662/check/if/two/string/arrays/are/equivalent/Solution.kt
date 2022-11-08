@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`1662`.check.`if`.two.string.arrays.are.equivalent
+package com.leetcode.tasks.algorithms.`1662`.check.`if`.two.string.arrays.are.equivalent
 
 /**
  * 1662. Check If Two String Arrays are Equivalent

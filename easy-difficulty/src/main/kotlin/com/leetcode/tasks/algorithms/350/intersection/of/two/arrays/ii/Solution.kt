@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`350`.intersection.of.two.arrays.ii
+package com.leetcode.tasks.algorithms.`350`.intersection.of.two.arrays.ii
 
 /**
  * 350. Intersection of Two Arrays II

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`228`.summary.ranges
+package com.leetcode.tasks.algorithms.`228`.summary.ranges
 
 /**
  * 228. Summary Ranges

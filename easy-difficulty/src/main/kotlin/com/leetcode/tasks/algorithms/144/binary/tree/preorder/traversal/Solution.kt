@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`144`.binary.tree.preorder.traversal
+package com.leetcode.tasks.algorithms.`144`.binary.tree.preorder.traversal
 
 /**
  * 144. Binary Tree Preorder Traversal

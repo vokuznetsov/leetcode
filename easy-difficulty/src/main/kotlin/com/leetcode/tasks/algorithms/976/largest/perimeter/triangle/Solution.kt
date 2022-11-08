@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`976`.largest.perimeter.triangle
+package com.leetcode.tasks.algorithms.`976`.largest.perimeter.triangle
 
 /**
  * 976. Largest Perimeter Triangle

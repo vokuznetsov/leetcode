@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`83`.remove.duplicates.from.sorted.list
+package com.leetcode.tasks.algorithms.`83`.remove.duplicates.from.sorted.list
 
 /**
  * 83. Remove Duplicates from Sorted List

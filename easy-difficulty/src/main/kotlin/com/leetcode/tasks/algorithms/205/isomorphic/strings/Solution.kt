@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`205`.isomorphic.strings
+package com.leetcode.tasks.algorithms.`205`.isomorphic.strings
 
 /**
  * 205. Isomorphic Strings

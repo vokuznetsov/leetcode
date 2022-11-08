@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`191`.number.of.`1`.bits
+package com.leetcode.tasks.algorithms.`191`.number.of.`1`.bits
 
 /**
  * 190. Reverse Bits

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`100`.same.tree
+package com.leetcode.tasks.algorithms.`100`.same.tree
 
 /**
  * 100. Same Tree

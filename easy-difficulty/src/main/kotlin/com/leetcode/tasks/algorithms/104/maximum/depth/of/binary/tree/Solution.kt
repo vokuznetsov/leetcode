@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`104`.maximum.depth.of.binary.tree
+package com.leetcode.tasks.algorithms.`104`.maximum.depth.of.binary.tree
 
 import kotlin.math.max
 

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`258`.add.digits
+package com.leetcode.tasks.algorithms.`258`.add.digits
 
 /**
  * 258. Add Digits

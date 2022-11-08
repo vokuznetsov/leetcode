@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`58`.length.of.last.word
+package com.leetcode.tasks.algorithms.`58`.length.of.last.word
 
 /**
  * 58. Length of Last Word

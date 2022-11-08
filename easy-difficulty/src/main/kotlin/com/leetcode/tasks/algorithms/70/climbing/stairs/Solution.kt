@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`70`.climbing.stairs
+package com.leetcode.tasks.algorithms.`70`.climbing.stairs
 
 /**
  * 70. Climbing Stairs

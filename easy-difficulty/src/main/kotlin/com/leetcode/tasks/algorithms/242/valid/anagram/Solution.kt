@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`242`.valid.anagram
+package com.leetcode.tasks.algorithms.`242`.valid.anagram
 
 /**
  * 242. Valid Anagram

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`27`.remove.element
+package com.leetcode.tasks.algorithms.`27`.remove.element
 
 /**
  * 27. Remove Element

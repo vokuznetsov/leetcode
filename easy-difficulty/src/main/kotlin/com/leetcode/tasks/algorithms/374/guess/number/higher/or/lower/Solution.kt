@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`374`.guess.number.higher.or.lower
+package com.leetcode.tasks.algorithms.`374`.guess.number.higher.or.lower
 
 /**
  * 374. Guess Number Higher or Lower

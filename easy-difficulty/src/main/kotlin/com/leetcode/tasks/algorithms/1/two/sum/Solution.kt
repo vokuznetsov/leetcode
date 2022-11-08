@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`1`.two.sum
+package com.leetcode.tasks.algorithms.`1`.two.sum
 
 /**
  * 1. Two Sum

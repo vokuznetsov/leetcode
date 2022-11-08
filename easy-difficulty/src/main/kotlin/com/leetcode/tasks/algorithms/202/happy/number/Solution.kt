@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`202`.happy.number
+package com.leetcode.tasks.algorithms.`202`.happy.number
 
 /**
  * 202. Happy Number

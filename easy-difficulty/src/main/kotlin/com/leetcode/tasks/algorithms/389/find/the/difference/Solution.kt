@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`389`.find.the.difference
+package com.leetcode.tasks.algorithms.`389`.find.the.difference
 
 /**
  * 389. Find the Difference

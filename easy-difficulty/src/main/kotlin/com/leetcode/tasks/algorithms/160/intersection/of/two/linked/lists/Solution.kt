@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`160`.intersection.of.two.linked.lists
+package com.leetcode.tasks.algorithms.`160`.intersection.of.two.linked.lists
 
 
 /**

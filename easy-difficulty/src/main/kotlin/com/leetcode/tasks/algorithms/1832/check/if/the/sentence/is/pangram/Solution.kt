@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`1832`.check.`if`.the.sentence.`is`.pangram
+package com.leetcode.tasks.algorithms.`1832`.check.`if`.the.sentence.`is`.pangram
 
 /**
  * 1832. Check if the Sentence Is Pangram

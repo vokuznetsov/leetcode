@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`125`.valid.palindrome
+package com.leetcode.tasks.algorithms.`125`.valid.palindrome
 
 /**
  * 125. Valid Palindrome

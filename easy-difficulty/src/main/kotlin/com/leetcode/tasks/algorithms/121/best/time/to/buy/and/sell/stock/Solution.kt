@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`121`.best.time.to.buy.and.sell.stock
+package com.leetcode.tasks.algorithms.`121`.best.time.to.buy.and.sell.stock
 
 /**
  * 121. Best Time to Buy and Sell Stock

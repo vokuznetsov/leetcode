@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`14`.longest.common.prefix
+package com.leetcode.tasks.algorithms.`14`.longest.common.prefix
 
 /**
  * 14. Longest Common Prefix

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`342`.power.of.four
+package com.leetcode.tasks.algorithms.`342`.power.of.four
 
 /**
  * 342. Power of Four

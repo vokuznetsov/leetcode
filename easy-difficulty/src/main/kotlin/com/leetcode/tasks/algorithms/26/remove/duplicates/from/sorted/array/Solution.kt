@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`26`.remove.duplicates.from.sorted.array
+package com.leetcode.tasks.algorithms.`26`.remove.duplicates.from.sorted.array
 
 /**
  * 26. Remove Duplicates from Sorted Array

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`345`.reverse.vowels.of.a.string
+package com.leetcode.tasks.algorithms.`345`.reverse.vowels.of.a.string
 
 /**
  * 345. Reverse Vowels of a String

@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`111`.minimum.depth.of.binary.tree
+package com.leetcode.tasks.algorithms.`111`.minimum.depth.of.binary.tree
 
 import kotlin.math.min
 

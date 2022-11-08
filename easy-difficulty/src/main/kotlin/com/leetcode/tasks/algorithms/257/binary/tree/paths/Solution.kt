@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`257`.binary.tree.paths
+package com.leetcode.tasks.algorithms.`257`.binary.tree.paths
 
 /**
  * 257. Binary Tree Paths

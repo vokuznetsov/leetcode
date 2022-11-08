@@ -1,4 +1,4 @@
-package com.leetcode.tasks.`112`.path.sum
+package com.leetcode.tasks.algorithms.`112`.path.sum
 
 /**
  * 112. Path Sum
