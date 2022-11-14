@@ -33,6 +33,20 @@ private object Solution {
 
         return k
     }
+
+    // more understandable
+    fun removeDuplicates3(nums: IntArray): Int {
+        var lastUniqueIndex = 0
+
+        for (i in 1..nums.lastIndex) {
+            if (nums[lastUniqueIndex] != nums[i]) {
+                lastUniqueIndex++
+                nums[lastUniqueIndex] = nums[i]
+            }
+        }
+
+        return lastUniqueIndex + 1
+    }
 }
 
 fun main() {
