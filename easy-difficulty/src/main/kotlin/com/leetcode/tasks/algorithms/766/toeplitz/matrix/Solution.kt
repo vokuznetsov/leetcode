@@ -70,7 +70,7 @@ fun main() {
         Solution.isToeplitzMatrix1(
             arrayOf(
                 intArrayOf(1, 2),
-                intArrayOf(2, 2),
+                intArrayOf(2, 2)
             )
         )
     )

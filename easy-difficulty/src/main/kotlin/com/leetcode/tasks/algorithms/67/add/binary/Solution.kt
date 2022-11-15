@@ -16,7 +16,7 @@ private object Solution {
         val bReversed = b.reversed()
 
         for (i in 0..size) {
-            when (aReversed.getOrElse(i) { '0' }.digitToInt()
+            when (aReversed.getOrElse(i) { '0' }.toString().toInt()
                     + bReversed.getOrElse(i) { '0' }.toString().toInt()
                     + additionalDigit
             ) {

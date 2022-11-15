@@ -1,5 +1,7 @@
 package com.leetcode.tasks.algorithms.`405`.convert.a.number.to.`hexadecimal `
 
+import java.util.ArrayDeque
+
 /**
  * 405. Convert a Number to Hexadecimal
  * https://leetcode.com/problems/convert-a-number-to-hexadecimal/

@@ -1,5 +1,7 @@
 package com.leetcode.tasks.algorithms.`232`.implement.queue.using.stacks
 
+import java.util.ArrayDeque
+
 /**
  * 232. Implement Queue using Stacks
  * https://leetcode.com/problems/implement-queue-using-stacks/

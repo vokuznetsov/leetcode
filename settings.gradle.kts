@@ -21,13 +21,13 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
-dependencyResolutionManagement {
-    repositories {
-        mavenLocal()
-        mavenCentral()
-    }
-}
+//
+//dependencyResolutionManagement {
+//    repositories {
+//        mavenLocal()
+//        mavenCentral()
+//    }
+//}
 
 /**
  * Name gradle build files after subprojects names
