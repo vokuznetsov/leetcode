@@ -1,8 +1,8 @@
 package com.leetcode.tasks.algorithms.`704`.binary.search
 
 /**
- * 645. Set Mismatch
- * https://leetcode.com/problems/set-mismatch/
+ * 704. Binary Search
+ * https://leetcode.com/problems/binary-search/
  */
 
 
