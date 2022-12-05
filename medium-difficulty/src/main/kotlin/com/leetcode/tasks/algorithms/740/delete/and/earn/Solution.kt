@@ -1,8 +1,8 @@
 package com.leetcode.tasks.algorithms.`740`.delete.and.earn
 
 /**
- * 1. Two Sum
- * https://leetcode.com/problems/two-sum/submissions/
+ * 740. Delete and Earn
+ * https://leetcode.com/problems/delete-and-earn/
  */
 private object Solution {
 
