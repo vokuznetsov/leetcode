@@ -1,6 +1,7 @@
 package com.leetcode.tasks.algorithms.`328`.odd.even.linked.list
 
-import com.leetcode.tasks.util.ListNode
+import com.leetcode.utility.ListNode
+
 
 /**
  * 328. Odd Even Linked List
@@ -16,7 +17,6 @@ import com.leetcode.tasks.util.ListNode
  *     var next: ListNode? = null
  * }
  */
-
 
 private object Solution {
 

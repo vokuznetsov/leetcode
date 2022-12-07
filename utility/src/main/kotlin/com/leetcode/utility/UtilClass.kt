@@ -1,4 +1,4 @@
-package com.leetcode.tasks.util
+package com.leetcode.utility
 
 class ListNode(var `val`: Int, var next: ListNode? = null) {
 
@@ -15,3 +15,5 @@ class ListNode(var `val`: Int, var next: ListNode? = null) {
         }
     }
 }
+
+data class TreeNode(var `val`: Int, var left: TreeNode? = null, var right: TreeNode? = null)

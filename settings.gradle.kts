@@ -13,6 +13,7 @@ rootProject.buildFileName = "${rootProject.name}.gradle.kts"
 include("easy-difficulty")
 include("medium-difficulty")
 include("hard-difficulty")
+include("utility")
 
 pluginManagement {
     repositories {
