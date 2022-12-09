@@ -15,7 +15,7 @@ group = "leetcode"
 
 
 extra.apply {
-    set("junitVersion", "1.3.10")
+    set("junitVersion", "5.6.1")
 }
 
 subprojects {

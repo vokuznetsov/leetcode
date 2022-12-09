@@ -2,8 +2,8 @@
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:${property("junitVersion")}")
 
+    testImplementation("org.junit.jupiter:junit-jupiter:${property("junitVersion")}")
 }
 
 tasks.test {
