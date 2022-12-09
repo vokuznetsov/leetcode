@@ -8,8 +8,15 @@ package com.leetcode.tasks.algorithms.`121`.best.time.to.buy.and.sell.stock
 private object Solution {
 
     fun maxProfit(prices: IntArray): Int {
+        var maxProfit = 0
+        var min = prices[0]
 
-        return 1
+        for (i in 1..prices.lastIndex) {
+            if (prices[i] < min) min = prices[i]
+            maxProfit = Math.max(prices[i] - min, maxProfit)
+        }
+
+        return maxProfit
     }
 }
 

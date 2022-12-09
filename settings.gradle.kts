@@ -13,6 +13,7 @@ rootProject.buildFileName = "${rootProject.name}.gradle.kts"
 include("easy-difficulty")
 include("medium-difficulty")
 include("hard-difficulty")
+include("utility")
 
 pluginManagement {
     repositories {
@@ -21,13 +22,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-//
-//dependencyResolutionManagement {
-//    repositories {
-//        mavenLocal()
-//        mavenCentral()
-//    }
-//}
 
 /**
  * Name gradle build files after subprojects names

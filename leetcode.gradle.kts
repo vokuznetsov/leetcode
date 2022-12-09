@@ -13,6 +13,11 @@ allprojects {
 
 group = "leetcode"
 
+
+extra.apply {
+    set("junitVersion", "1.3.10")
+}
+
 subprojects {
     group = "${rootProject.group}.${rootProject.name}"
 
