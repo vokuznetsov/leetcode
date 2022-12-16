@@ -32,9 +32,7 @@ class MyQueue {
             }
         }
 
-        val result = stack2.removeLast()
-        if (!stack2.isEmpty()) top = stack2.last()
-        return result
+        return stack2.removeLast()
     }
 
     fun peek(): Int {
@@ -49,12 +47,30 @@ class MyQueue {
 
 fun main() {
 
-    // --------- 1 ---------
-    val myQueue = MyQueue()
-    myQueue.push(1) // queue is: [1]
-    myQueue.push(2) // queue is: [1, 2] (leftmost is front of the queue)
-    println(myQueue.peek()) // return 1
-    println(myQueue.pop()) // return 1, queue is [2]
-    println(myQueue.empty()) // return false
+// --------- 1 ---------
+    val myQueue1 = MyQueue()
+    myQueue1.push(1) // queue is: [1]
+    myQueue1.push(2) // queue is: [1, 2] (leftmost is front of the queue)
+    println(myQueue1.peek() == 1) // return 1
+    println(myQueue1.pop() == 1) // return 1, queue is [2]
+    println(!myQueue1.empty()) // return false
+
+    // --------- 2 ---------
+    val myQueue2 = MyQueue()
+    myQueue2.push(1) // queue is: [1]
+    myQueue2.push(2) // queue is: [1, 2] (leftmost is front of the queue)
+    println(myQueue2.pop() == 1) // return 1
+    println(myQueue2.peek() == 2) // return 2
+    println(!myQueue2.empty()) // return false
+
+    // --------- 3 ---------
+    val myQueue3 = MyQueue()
+    myQueue3.push(1) // queue is: [1]
+    myQueue3.push(2) // queue is: [1, 2] (leftmost is front of the queue)
+    println(myQueue3.pop() == 1) // return 1
+    myQueue3.push(3) // queue is: [2, 3]
+    myQueue3.push(4) // queue is: [2, 3, 4] (leftmost is front of the queue)
+    println(myQueue3.pop() == 2) // return 2
+    println(myQueue3.peek() == 3) // return 3
 
 }

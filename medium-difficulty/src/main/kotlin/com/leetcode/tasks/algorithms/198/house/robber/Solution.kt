@@ -12,16 +12,15 @@ private object Solution {
     fun rob(nums: IntArray): Int {
         if (nums.size == 1) return nums[0]
         var first = nums[0]
-        var second = Math.max(nums[1], nums[0])
+        var second = Math.max(nums[0], nums[1])
 
         for (i in 2..nums.lastIndex) {
-            val result = Math.max(second, first + nums[i])
+            val temp = Math.max(second, first + nums[i])
             first = second
-            second = result
-
+            second = temp
         }
 
-        return Math.max(first, second)
+        return second
     }
 
     // recursion way
