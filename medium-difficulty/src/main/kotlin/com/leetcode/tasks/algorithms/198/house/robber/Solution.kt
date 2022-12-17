@@ -1,8 +1,8 @@
 package com.leetcode.tasks.algorithms.`198`.house.robber
 
 /**
- * 1. Two Sum
- * https://leetcode.com/problems/two-sum/submissions/
+ * 198. House Robber
+ * https://leetcode.com/problems/house-robber/
  */
 private object Solution {
 
