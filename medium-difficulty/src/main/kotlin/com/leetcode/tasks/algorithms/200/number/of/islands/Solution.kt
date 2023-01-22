@@ -9,7 +9,7 @@ private object Solution {
     private var count = 0
     private val visitedElement = mutableSetOf<Pair<Int, Int>>()
 
-    fun numIslands(grid: Array<CharArray>): Int {
+    fun numIslands1(grid: Array<CharArray>): Int {
         count = 0
         visitedElement.clear()
         val m = grid.lastIndex
@@ -37,6 +37,37 @@ private object Solution {
                     && isIsland(x, y - 1, m, n, grid)
                     && isIsland(x, y + 1, m, n, grid)
         }
+    }
+
+
+    // DFS search, time - O(M×N), space - O(M×N)
+    fun numIslands(grid: Array<CharArray>): Int {
+        val m = grid.lastIndex
+        val n = grid[0].lastIndex
+        var count = 0
+
+        for (x in 0..m)
+            for (y in 0..n) {
+                if (grid[x][y] == '1') {
+                    count++
+                    dfs(x, y, grid)
+                }
+            }
+
+        return count
+    }
+
+    private fun dfs(x: Int, y: Int, grid: Array<CharArray>) {
+        val m = grid.lastIndex
+        val n = grid[0].lastIndex
+
+        if (x > m || y > n || x < 0 || y < 0 || grid[x][y] == '0') return
+
+        grid[x][y] = '0'
+        dfs(x - 1, y, grid)
+        dfs(x + 1, y, grid)
+        dfs(x, y - 1, grid)
+        dfs(x, y + 1, grid)
     }
 }
 
