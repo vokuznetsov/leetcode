@@ -54,7 +54,7 @@ fun main() {
                 intArrayOf(1, 10, 10, 10, 10),
                 intArrayOf(1, 10, 10, 10, 10),
                 intArrayOf(1, 10, 10, 10, 10),
-                intArrayOf(100, 10, 10, 10, 1),
+                intArrayOf(100, 10, 10, 10, 1)
             )
         ) == 14
     )
@@ -65,7 +65,7 @@ fun main() {
                 intArrayOf(100, -42, -46, -41),
                 intArrayOf(31, 97, 10, -10),
                 intArrayOf(-58, -51, 82, 89),
-                intArrayOf(51, 81, 69, -51),
+                intArrayOf(51, 81, 69, -51)
             )
         ) == -36
     )

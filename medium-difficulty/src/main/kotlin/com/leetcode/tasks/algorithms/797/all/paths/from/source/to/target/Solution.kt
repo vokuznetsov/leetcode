@@ -42,7 +42,7 @@ fun main() {
             )
         ) == listOf(
             listOf(0, 1, 3),
-            listOf(0, 2, 3),
+            listOf(0, 2, 3)
         )
     )
 
