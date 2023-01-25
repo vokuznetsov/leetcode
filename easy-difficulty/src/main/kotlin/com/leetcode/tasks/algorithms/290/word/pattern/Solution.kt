@@ -36,12 +36,11 @@ private object Solution {
 
 fun main() {
 
-
     println(Solution.wordPattern("abba", "dog cat cat dog"))
-    println(Solution.wordPattern("abba", "dog dog dog dog"))
-    println(Solution.wordPattern("abba", "dog cat cat fish"))
-    println(Solution.wordPattern("aaaa", "dog cat cat dog"))
-    println(Solution.wordPattern("aaa", "aa aa aa aa"))
-    println(Solution.wordPattern("aaaaa", "aa aa"))
+    println(!Solution.wordPattern("abba", "dog dog dog dog"))
+    println(!Solution.wordPattern("abba", "dog cat cat fish"))
+    println(!Solution.wordPattern("aaaa", "dog cat cat dog"))
+    println(!Solution.wordPattern("aaa", "aa aa aa aa"))
+    println(!Solution.wordPattern("aaaaa", "aa aa"))
 
 }
