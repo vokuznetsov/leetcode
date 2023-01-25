@@ -6,7 +6,7 @@ package com.leetcode.tasks.algorithms.`5`.longest.palindromic.substring
  */
 private object Solution {
 
-    fun longestPalindrome(s: String): String {
+    fun longestPalindrome1(s: String): String {
         var maxPalindrome = s[0].toString()
 
         val map = mutableMapOf<Char, MutableList<Int>>()
@@ -46,6 +46,35 @@ private object Solution {
         return true
     }
 
+    // time - O(n2), space - O(1)
+    fun longestPalindrome(s: String): String {
+        var palindrome = s[0].toString()
+        for (i in 0 until s.lastIndex) {
+            val len1 = palindromeLength(i, i, s)
+            val len2 = palindromeLength(i, i + 1, s)
+            val max = Math.max(len1, len2)
+
+            if (max > palindrome.length) {
+                val start = i - ((max - 1) / 2)
+                val end = i + max / 2 + 1
+                palindrome = s.substring(start, end)
+            }
+        }
+
+        return palindrome
+    }
+
+    private fun palindromeLength(left: Int, right: Int, s: String): Int {
+        var l = left
+        var r = right
+
+        while (l >= 0 && r < s.length && s[l] == s[r]) {
+            l--
+            r++
+        }
+
+        return r - l - 1
+    }
 }
 
 fun main() {
