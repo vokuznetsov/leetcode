@@ -4,6 +4,56 @@ package com.leetcode.tasks.algorithms.`200`.number.of.islands
  * 200. Number of Islands
  * https://leetcode.com/problems/number-of-islands/
  */
+
+private data class UnionFind(val grid: Array<CharArray>) {
+
+    val m = grid.size
+    val n = grid[0].size
+
+    var count: Int = 0
+    private val parent = IntArray(m * n) { 0 }
+    private val rank = IntArray(m * n) { 0 }
+
+    init {
+        for (i in 0 until m) {
+            for (j in 0 until n) {
+                val pos = i * n + j
+                if (grid[i][j] == '1') {
+                    parent[pos] = pos
+                    count++
+                }
+                rank[pos] = 0
+            }
+        }
+    }
+
+    fun find(x: Int): Int {
+        return if (parent[x] == x) x
+        else {
+            parent[x] = find(parent[x])
+            parent[x]
+        }
+    }
+
+    fun union(x: Int, y: Int) {
+        val parentX = find(x)
+        val parentY = find(y)
+
+        if (parentX != parentY) {
+            if (rank[parentX] < rank[parentY]) {
+                parent[parentX] = parentY
+            } else if (rank[parentX] > rank[parentY]) {
+                parent[parentY] = parentX
+            } else if (rank[parentX] == rank[parentY]) {
+                parent[parentY] = parentX
+                rank[parentX] += 1
+            }
+            count--
+        }
+
+    }
+}
+
 private object Solution {
 
     private var count = 0
@@ -71,10 +121,40 @@ private object Solution {
     }
 }
 
+private object UnionFindSolution {
+    fun numIslands(grid: Array<CharArray>): Int {
+        val union = UnionFind(grid)
+
+        val m = grid.size
+        val n = grid[0].size
+        for (i in 0 until m) {
+            for (j in 0 until n) {
+                if (grid[i][j] == '1') {
+                    grid[i][j] = '0'
+                    if (i - 1 >= 0 && grid[i - 1][j] == '1') {
+                        union.union(i * n + j, (i - 1) * n + j)
+                    }
+                    if (i + 1 < m && grid[i + 1][j] == '1') {
+                        union.union(i * n + j, (i + 1) * n + j)
+                    }
+                    if (j - 1 >= 0 && grid[i][j - 1] == '1') {
+                        union.union(i * n + j, i * n + j - 1)
+                    }
+                    if (j + 1 < n && grid[i][j + 1] == '1') {
+                        union.union(i * n + j, i * n + j + 1)
+                    }
+                }
+            }
+        }
+
+        return union.count
+    }
+}
+
 fun main() {
 
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
                 charArrayOf('1', '0', '1'),
                 charArrayOf('1', '1', '1')
@@ -82,9 +162,8 @@ fun main() {
         ) == 1
     )
 
-
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
                 charArrayOf('1', '0', '1'),
                 charArrayOf('1', '1', '0')
@@ -93,7 +172,7 @@ fun main() {
     )
 
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
                 charArrayOf('1', '1', '1', '1', '0'),
                 charArrayOf('1', '1', '0', '1', '0'),
@@ -104,7 +183,7 @@ fun main() {
     )
 
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
                 charArrayOf('1', '0'),
                 charArrayOf('0', '1')
@@ -113,7 +192,7 @@ fun main() {
     )
 
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
                 charArrayOf('1', '1', '0', '0'),
                 charArrayOf('1', '1', '0', '0'),
@@ -124,7 +203,7 @@ fun main() {
     )
 
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
 
                 charArrayOf('1', '0', '0'),
@@ -134,7 +213,7 @@ fun main() {
     )
 
     println(
-        Solution.numIslands(
+        UnionFindSolution.numIslands(
             arrayOf(
                 charArrayOf('1', '1', '0', '0', '0'),
                 charArrayOf('1', '1', '0', '0', '0'),
