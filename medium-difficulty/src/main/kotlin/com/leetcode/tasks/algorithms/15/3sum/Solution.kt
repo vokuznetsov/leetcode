@@ -1,11 +1,13 @@
 package com.leetcode.tasks.algorithms.`15`.`3sum`
 
+import com.leetcode.utility.annotations.Repeat
 
-// TODO: REPEAT!!!
+
 /**
  * 15. 3Sum
  * https://leetcode.com/problems/3sum/
  */
+@Repeat
 private object Solution {
 
     /*fun threeSum1(nums: IntArray): List<List<Int>> {
