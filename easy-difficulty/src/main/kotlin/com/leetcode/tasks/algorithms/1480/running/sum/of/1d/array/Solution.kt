@@ -7,23 +7,25 @@ package com.leetcode.tasks.algorithms.`1480`.running.sum.of.`1d`.array
 
 private object Solution {
 
-    fun runningSum(nums: IntArray): IntArray {
-        var prefix = 0
-        val result = IntArray(nums.size)
+    fun minStartValue(nums: IntArray): Int {
+        var min = 0
+        var sum = 0
 
-        for ((index, value) in nums.withIndex()) {
-            result[index] = prefix + value
-            prefix = result[index]
+        for (i in 0..nums.lastIndex) {
+            sum += nums[i]
+            min = Math.min(min, sum)
         }
 
-        return result
+        return -min + 1
     }
 }
 
 fun main() {
 
-    println(Solution.runningSum(intArrayOf(1, 2, 3, 4)).contentEquals(intArrayOf(1, 3, 6, 10)))
-    println(Solution.runningSum(intArrayOf(1, 1, 1, 1, 1)).contentEquals(intArrayOf(1, 2, 3, 4, 5)))
-    println(Solution.runningSum(intArrayOf(3, 1, 2, 10, 1)).contentEquals(intArrayOf(3, 4, 6, 16, 17)))
+    println(Solution.minStartValue(intArrayOf(-3, 2, -3, 4, 2)) == 5)
+    println(Solution.minStartValue(intArrayOf(1, 2)) == 1)
+    println(Solution.minStartValue(intArrayOf(1, -2, -3)) == 5)
+    println(Solution.minStartValue(intArrayOf(2, 3, 5, -5, -1)) == 1)
+    println(Solution.minStartValue(intArrayOf(-3, 6, 2, 5, 8, 6)) == 4)
 
 }
