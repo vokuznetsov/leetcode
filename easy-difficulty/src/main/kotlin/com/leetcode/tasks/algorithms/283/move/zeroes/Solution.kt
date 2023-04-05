@@ -5,10 +5,10 @@ package com.leetcode.tasks.algorithms.`283`.move.zeroes
  * https://leetcode.com/problems/move-zeroes/
  */
 
-
 private object Solution {
 
-    fun moveZeroes(nums: IntArray): Unit {
+    // First approach
+    fun moveZeroes(nums: IntArray) {
         var startZeroPosition = -1
         for ((index, value) in nums.withIndex()) {
             if (value == 0 && startZeroPosition < 0) {
@@ -20,6 +20,23 @@ private object Solution {
             }
         }
     }
+
+    // Second approach
+    fun moveZeroes1(nums: IntArray) {
+        var left = 0
+        var right = 0
+
+        while (right <= nums.lastIndex) {
+            if (nums[left] == 0) {
+                while (right < nums.lastIndex && nums[right] == 0) right++
+                nums[left] = nums[right]
+                nums[right] = 0
+            }
+
+            left++
+            right++
+        }
+    }
 }
 
 fun main() {
@@ -29,11 +46,13 @@ fun main() {
     print("Result: ")
     nums1.forEach { print("$it ") }
 
-    println()
+    println(nums1.contentEquals(intArrayOf(1, 3, 12, 0, 0)))
 
     val nums2 = intArrayOf(0, 0, 1, 3, 12)
     Solution.moveZeroes(nums2)
     print("Result: ")
     nums2.forEach { print("$it ") }
+
+    println(nums2.contentEquals(intArrayOf(1, 3, 12, 0, 0)))
 
 }
