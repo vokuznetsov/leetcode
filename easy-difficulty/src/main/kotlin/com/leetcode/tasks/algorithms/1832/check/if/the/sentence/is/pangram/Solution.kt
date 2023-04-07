@@ -8,29 +8,19 @@ package com.leetcode.tasks.algorithms.`1832`.check.`if`.the.sentence.`is`.pangra
 private object Solution {
 
     fun checkIfPangram(sentence: String): Boolean {
-        val map = mutableMapOf<Char, Int>()
-        ('a'..'z').forEach { c -> map[c] = 0 }
+        val set = mutableSetOf<Char>()
+        for (i in 97..122) set.add(i.toChar())
 
         for (c in sentence) {
-            map[c] = map.getValue(c) + 1
+            set.remove(c)
         }
-
-        return !map.filter { entry -> entry.value == 0 }.any()
-    }
-
-    fun checkIfPangram1(sentence: String): Boolean {
-        for (i in (0..25)) {
-            val currChar = 'a' + i
-
-            if (!sentence.contains(currChar)) return false
-        }
-        return true
+        return set.size == 0
     }
 }
 
 fun main() {
 
-    println(Solution.checkIfPangram1("thequickbrownfoxjumpsoverthelazydog"))
-    println(Solution.checkIfPangram1("leetcode"))
+    println(Solution.checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))
+    println(!Solution.checkIfPangram("leetcode"))
 
 }
