@@ -2,7 +2,7 @@ package com.leetcode.tasks.algorithms.`1512`.number.of.good.pairs
 
 /**
  * 1512. Number of Good Pairs
- * https://leetcode.com/problems/destination-city/
+ * https://leetcode.com/problems/number-of-good-pairs/
  */
 
 private object Solution {
