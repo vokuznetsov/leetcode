@@ -42,6 +42,23 @@ private object Solution {
 
         return head
     }
+
+    fun deleteDuplicates1(head: ListNode?): ListNode? {
+        if (head?.next == null) return head
+
+        var slow = head
+        var fast = head.next
+
+        while (fast != null) {
+            if (slow?.`val` == fast?.`val`) {
+                slow.next = fast.next
+            } else {
+                slow = slow?.next
+            }
+            fast = fast.next
+        }
+        return head
+    }
 }
 
 fun main() {
