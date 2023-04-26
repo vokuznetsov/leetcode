@@ -29,6 +29,7 @@ private data class ListNode(var `val`: Int, var next: ListNode? = null) {
 
 private object Solution {
 
+    // time - O(n), space - O(n)
     fun isPalindrome(head: ListNode?): Boolean {
         val stack = ArrayDeque<Int>()
         fulfillStack(head, stack)
@@ -46,6 +47,45 @@ private object Solution {
             stack.add(head.`val`)
             fulfillStack(head.next, stack)
         }
+    }
+
+    // time - O(n), space - O(1)
+    fun isPalindrome1(head: ListNode?): Boolean {
+        if (head?.next == null) return true
+
+        var slow = head
+        var fast = head
+
+        while (fast?.next != null) {
+            slow = slow?.next
+            fast = fast.next?.next
+        }
+        var middle = if (fast == null) reverseList(slow) else reverseList(slow?.next)
+
+        var start = head
+        while (middle != null) {
+            if (start?.`val` != middle?.`val`) return false
+            middle = middle?.next
+            start = start?.next
+        }
+
+        return true
+    }
+
+    private fun reverseList(head: ListNode?): ListNode? {
+        if (head?.next == null) return head
+
+        var previous: ListNode? = null
+        var curr = head
+        var nextNode: ListNode?
+
+        while (curr != null) {
+            nextNode = curr?.next
+            curr?.next = previous
+            previous = curr
+            curr = nextNode
+        }
+        return previous
     }
 }
 
