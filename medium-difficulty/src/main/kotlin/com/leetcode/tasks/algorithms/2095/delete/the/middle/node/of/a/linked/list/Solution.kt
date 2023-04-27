@@ -4,8 +4,8 @@ import com.leetcode.utility.ListNode
 
 
 /**
- * 234. Palindrome Linked List
- * https://leetcode.com/problems/palindrome-linked-list/
+ * 2095. Delete the Middle Node of a Linked List
+ * https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
  */
 
 /**
@@ -19,52 +19,25 @@ import com.leetcode.utility.ListNode
  */
 private object Solution {
 
-    fun isPalindrome(head: ListNode?): Boolean {
-        if (head?.next == null) return true
+    fun deleteMiddle(head: ListNode?): ListNode? {
+        if (head?.next == null) return null
 
         var slow = head
         var fast = head
+        var previous: ListNode? = null
 
         while (fast?.next != null) {
+            previous = slow
             slow = slow?.next
             fast = fast.next?.next
         }
-        var middle = if (fast == null) reverseList(slow) else reverseList(slow?.next)
 
-        var start = head
-        while (middle != null) {
-            if (start?.`val` != middle?.`val`) return false
-            middle = middle?.next
-            start = start?.next
-        }
+        previous?.next = slow?.next
 
-        return true
-    }
-
-    private fun reverseList(head: ListNode?): ListNode? {
-        if (head?.next == null) return head
-
-        var previous: ListNode? = null
-        var curr = head
-        var nextNode: ListNode? = null
-
-        while (curr != null) {
-            nextNode = curr?.next
-            curr?.next = previous
-            previous = curr
-            curr = nextNode
-        }
-        return previous
+        return head
     }
 }
 
 fun main() {
 
-    println(
-        Solution.isPalindrome(ListNode.create(intArrayOf(1,2,2,1)))
-    )
-
-    println(
-        !Solution.isPalindrome(ListNode.create(intArrayOf(1,2)))
-    )
 }
