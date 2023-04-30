@@ -1,8 +1,8 @@
 package com.leetcode.tasks.algorithms.`71`.simplify.path
 
 /**
- * 56. Merge Intervals
- * https://leetcode.com/problems/merge-intervals/
+ * 71. Simplify Path
+ * https://leetcode.com/problems/simplify-path/
  */
 private object Solution {
 
