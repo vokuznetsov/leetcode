@@ -22,12 +22,30 @@ private object Solution {
 
         return true
     }
+
+    // more readable solution
+    fun isPalindrome1(s: String): Boolean {
+        var left = 0
+        var right = s.lastIndex
+
+        while (left < right) {
+            if (s[left].isLetterOrDigit() && s[right].isLetterOrDigit()) {
+                if (s[left++].toLowerCase() != s[right--].toLowerCase()) return false
+            } else {
+                if (!s[left].isLetterOrDigit()) left++
+                if (!s[right].isLetterOrDigit()) right--
+            }
+
+        }
+
+        return true
+    }
 }
 
 fun main() {
 
-    println(Solution.isPalindrome("A man, a plan, a canal: Panama"))
-    println(Solution.isPalindrome("race a car"))
-    println(Solution.isPalindrome(" "))
+    println(Solution.isPalindrome1("A man, a plan, a canal: Panama"))
+    println(!Solution.isPalindrome1("race a car"))
+    println(Solution.isPalindrome1(" "))
 
 }
