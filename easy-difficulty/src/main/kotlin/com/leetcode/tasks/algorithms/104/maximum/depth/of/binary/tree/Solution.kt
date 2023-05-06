@@ -1,5 +1,6 @@
 package com.leetcode.tasks.algorithms.`104`.maximum.depth.of.binary.tree
 
+import com.leetcode.utility.TreeNode
 import kotlin.math.max
 
 /**
@@ -7,7 +8,6 @@ import kotlin.math.max
  * https://leetcode.com/problems/maximum-depth-of-binary-tree/
  */
 
-private data class TreeNode(var `val`: Int, var left: TreeNode? = null, var right: TreeNode? = null)
 
 private object Solution {
 
@@ -34,21 +34,8 @@ private object Solution {
 
 fun main() {
 
-    val t1 = TreeNode(1, TreeNode(2), TreeNode(3))
-    println(Solution.maxDepthElegant(t1) == 2)
-
-    val t2 = TreeNode(
-        1,
-        TreeNode(
-            2,
-            TreeNode(3), TreeNode(4)
-        ),
-        TreeNode(
-            2,
-            TreeNode(4), TreeNode(3)
-        )
-    )
-    println(Solution.maxDepthElegant(t2) == 3)
+    println(Solution.maxDepthElegant(TreeNode.create(arrayOf(1, 2, 3))) == 2)
+    println(Solution.maxDepthElegant(TreeNode.create(arrayOf(1, 2, 2, 3, 4, 4, 3))) == 3)
 
 
 }
