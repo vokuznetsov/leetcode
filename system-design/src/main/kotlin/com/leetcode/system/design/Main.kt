@@ -1,5 +1,6 @@
 package com.leetcode.system.design
 
+
 /**
  * 9999999. Maximum Average Subarray I
  * https://link.com/

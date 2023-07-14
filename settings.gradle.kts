@@ -14,6 +14,7 @@ include("easy-difficulty")
 include("medium-difficulty")
 include("hard-difficulty")
 include("system-design")
+include("companies")
 include("utility")
 
 pluginManagement {
